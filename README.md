@@ -24,6 +24,7 @@ int go_sox_flow_shim(sox_bool all_done, void *client_data) {
 sox_flow_effects_callback go_sox_flow_shim() {
   return &go_sox_flow_shim;
 }
+
 ```
 
 ```
